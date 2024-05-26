@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
 
         int amount = 50; // У клиента на счету 50 руб
-        int popolnenie = 1500; // Сумма пополнения
+        int popolnenie = 999; // Сумма пополнения
         int casback = 100; // 1 бонусный рубль за каждые 100 руб
         int bonus; // Бонус за пополнение
 
@@ -15,5 +15,6 @@ public class Main {
         int balance = amount + popolnenie + bonus;
 
         System.out.println("Ваш баланс " + balance + " рублей");
+        System.out.println("Ваши бонусы " + bonus + " рублей");
     }
 }
